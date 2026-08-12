@@ -1,0 +1,40 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node and frontend builds
+frontend/node_modules/
+frontend/dist/
+.npm-cache/
+
+# Runtime state and generated reports
+.cache/
+database/*.db
+database/*.sqlite*
+database/uploads/
+logs/
+outputs/
+*.log
+
+# Contact data must never be committed
+*.csv
+*.xls
+*.xlsx
+
+# Editors and operating systems
+.idea/
+.vscode/*
+!.vscode/tasks.json
+.DS_Store
+Thumbs.db
+Desktop.ini
