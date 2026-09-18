@@ -77,7 +77,7 @@ The application supports Groq, DeepSeek, and OpenRouter. Configure at least one 
 Clone the repository and create a virtual environment:
 
 ```powershell
-git clone <your-repository-url>
+git clone https://github.com/Osamaktk/ProfileMatch-AI.git
 Set-Location ProfileMatch-AI
 
 python -m venv .venv
@@ -230,3 +230,7 @@ ProfileMatch-AI/
 ## License
 
 Released under the [MIT License](LICENSE).
+
+## Development and maintenance
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow and [SECURITY.md](SECURITY.md) for handling credentials and sensitive data.
